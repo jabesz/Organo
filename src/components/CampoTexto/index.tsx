@@ -26,6 +26,7 @@ const CampoTexto = ({ aoAlterado, label, placeholder, valor, obrigatorio = false
        onChange={aoDigitado}
        required={obrigatorio} 
        placeholder={placeholderModificado}/>
+       type={tipo}
     </div>
   )
 }
